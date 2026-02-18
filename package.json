@@ -1,0 +1,23 @@
+{
+  "name": "antiraid",
+  "author": "Beard Demon",
+  "version": "1.0.0",
+  "description": "Discord Anti Raid Bot (discord.js v14).",
+  "main": "raid.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node raid.js",
+    "dev": "nodemon raid.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "js-yaml": "^4.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
